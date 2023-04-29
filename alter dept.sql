@@ -1,0 +1,4 @@
+ALTER TABLE dept_locations
+ADD CONSTRAINT dept_loc
+FOREIGN KEY (Dnumber) 
+REFERENCES DEPARTMENT(Dnumber);
