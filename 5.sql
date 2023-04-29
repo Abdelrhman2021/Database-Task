@@ -1,0 +1,6 @@
+CREATE TABLE WORKS_ON (
+  Essn CHAR(9) NOT NULL,
+  Pno INT NOT NULL,
+  Hours Decimal(3,1) NOT NULL,
+  PRIMARY KEY (Essn, Pno)
+);
